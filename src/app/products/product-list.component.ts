@@ -5,5 +5,16 @@ import { Component } from '@angular/core';
     templateUrl:'./product-list.component.html'
 })
 export class ProductListComponent{
-
+    pageTitle: string = "Product List";
+    products: any[] = [
+        {
+            "productId":1
+        },
+        {
+            "productId":11
+        },
+        {
+            "productId":12
+        }
+    ]
 }
